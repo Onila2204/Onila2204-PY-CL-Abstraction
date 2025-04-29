@@ -30,7 +30,9 @@ class Dog(Animal):
     """
     Class representing a dog, inheriting from Animal.
     """
+    def make_sound(self):
 
+        return "Woof!"
     """
     To do: Write a make_sound() method for the Dog class to make the dog bark.
 
@@ -45,7 +47,9 @@ class Cat(Animal):
     """
     Class representing a cat, inheriting from Animal.
     """
+    def make_sound(self):
 
+        return "Meow!"
     """
     To do: Write a make_sound() method for the Cat class to make the cat meow.
 
@@ -60,7 +64,9 @@ class Duck(Animal):
     """
     Class representing a duck, inheriting from Animal.
     """
+    def make_sound(self):
 
+        return "Quack!"
     """
     To do: Write a make_sound() method for the Duck class to make the duck quack.
 
